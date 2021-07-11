@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('C:/xampp/htdocs/website/window11 design/window11 image/background.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 100vh;
+
+}
+.alignment{
+	padding-top: 5%;
+
+}
+.icons a{
+	color: white;
+}
+.taskbaar{
+	background-color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	z-index: 100;
+
+}
+.startmenu{
+	position: absolute;
+	/*bottom: 50px;*/
+	width: 100%;
+	text-align: center;
+	border-radius: 50px;
+	bottom: -460%;
+	transition: all 0.3s ease-in;
+}
+.startmenu img{
+	border-radius: 8px;
+	height: 500px;
+}
+.taskbaarright{
+	position: absolute;
+	right: 0;
+	height: 85%;
+}
